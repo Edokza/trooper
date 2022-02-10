@@ -8,11 +8,11 @@ import {
   Alert,
 } from 'react-native';
 import {PageStack, PageStackContainer} from './component/PageStack';
-import Stock from './Page/Stock';
-import AddStock from './Page/AddStock';
-import RemoveStock from './Page/RemoveStock';
-import OrderStock from './Page/OrderStock';
-import ListOfStock from './Page/ListOfStock';
+import Stock from './component/Stock';
+import AddStock from './component/AddStock';
+import RemoveStock from './component/RemoveStock';
+import OrderStock from './component/OrderStock';
+import ListOfStock from './component/ListOfStock';
 
 const Item = ({title}) => (
   <View style={styles.item}>
